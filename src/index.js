@@ -1,15 +1,19 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-
 import reportWebVitals from './reportWebVitals';
-import Slider from './components/Slider';
+import ServicesComponent from './components/ServicesComponent';
+//import Image_with_Description from './components/Image_with_description';
+//import Cards from './components/Card';
+//import Slider from './components/Slider';
+//import AnimatedCard from './components/AnimatedCard';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    
-    <Slider/>
+
+    <ServicesComponent/>
+
   </React.StrictMode>
 );
 
